@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import SushiContainer from "./SushiContainer";
 import Table from "./Table";
 
-const API = "https://sushi-saga-jsonserver.herokuapp.com/sushis";
+const API = "https://react-hooks-practice-sushi-saga.onrender.com/sushis";
 
 function App() {
   const [sushis, setSushis] = useState([]);
